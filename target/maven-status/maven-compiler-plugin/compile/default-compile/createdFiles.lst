@@ -1,0 +1,3 @@
+com\cc\mapreducer\wordcount2\WordCountDriver.class
+com\cc\mapreducer\wordcount2\WordCountMapper.class
+com\cc\mapreducer\wordcount2\WordCountReducer.class
