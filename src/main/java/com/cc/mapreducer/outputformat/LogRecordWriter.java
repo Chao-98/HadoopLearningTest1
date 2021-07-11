@@ -30,9 +30,9 @@ public class LogRecordWriter extends RecordWriter<Text, NullWritable> {
     public void write(Text key, NullWritable value) throws IOException, InterruptedException {
         String log = key.toString();
         if (log.contains("atguigu")){
-            atguiguOut.writeBytes(log);
+            atguiguOut.writeBytes(log + "\n");
         }else {
-            otherOut.writeBytes(log);
+            otherOut.writeBytes(log + "\n");
         }
     }
 
